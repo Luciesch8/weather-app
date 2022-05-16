@@ -46,7 +46,6 @@ let apiCallTwo = function(longitude, latitude) {
     fetch(url).then((response)=> 
     response.json().then((data) =>{
 
-///////////////////////////////Par heures////////////////////////////////
 
     function addHoursToDate(date, hour){
         let res = new Date();
