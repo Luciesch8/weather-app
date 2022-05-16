@@ -1,0 +1,155 @@
+#toggleDarkMode{
+    outline: none ;
+    background-color: rgba(0, 0, 0, 0) ;
+    border: none;
+    display: flex;
+    flex-direction: row;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0 ;
+    font-family: 'Open Sans', sans-serif ;
+   /* background-color: blue;*/
+    font-size: 100%;
+    margin-top: 20px;
+    margin-bottom: 200px !important;
+    font-size: 16px;
+    background: url("../img/7day.jpeg") no-repeat fixed ;
+}
+
+body.dark-theme{
+    background: url("../img/picture_night.jpeg") ;
+    background-size: cover;
+}
+
+.cardTwo{
+    background: #000000d5;
+    color: #FFFFFF;
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-bar{
+    border: none;
+    outline: none;
+    padding: 0.5em;
+    border-radius: 24px;
+    background: #1d1d1de0;
+    color: white;
+    font-size: inherit;
+    margin-right: 5px;
+    width:100%;
+}
+
+
+button img{
+    border: none;
+    height: 15px;
+    width: 15px;
+    outline :none;
+    margin-bottom: 5px;
+}
+
+button{
+    border-radius: 50px;
+    margin-left: 20px;
+}
+
+h2{
+    margin-top: 20px;
+    font-size: 28px;
+
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.description{
+    text-transform: capitalize;
+}
+
+
+/*jours*/
+.card{
+    text-transform: capitalize;
+    background: #000000d0;
+    color: #FFFFFF;
+    padding: 1.7em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 600px;
+    margin: 0.5em;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.card>div>div{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    margin: 0;
+    justify-content: space-between;
+}
+
+
+.card>div>div>img{
+    height:3em;
+    width: 3em;
+}
+
+.card>div>div>p{
+    margin: 0;
+    max-width: 200px
+}
+
+
+.card>div>div>h3{
+    margin: 0;
+    width: 85px;
+}
+
+/*heure*/
+.cardOne{
+    overflow-x: scroll ;
+    overflow-y: hidden ;
+    display: flex;
+    width: 100%;
+}
+
+
+.card .cardOne div{
+    display: flex;
+    flex-direction: column;   
+    align-items: center;
+    text-align: center;
+    width: 60px;
+    margin-bottom: 10px;
+}
+
+.cardOne div img{
+    height:3em;
+    width: 3em;
+}
+
+
+h3{
+    font-size: 16px;
+    align-items: center;
+}
+
