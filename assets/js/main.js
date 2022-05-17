@@ -8,7 +8,7 @@ document.getElementById("toggleDarkMode").addEventListener("click", darkMode)
 
 
 let apiCall = function(city) {
-    const APIKEY = "c06287f4e5e85a5e927cd30eb552c7d7";
+    const APIKEY = "*************************";
     let url =`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${APIKEY}&units=metric&lang=fr`;
 
 fetch(url).then((response) => 
