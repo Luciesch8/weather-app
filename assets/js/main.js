@@ -40,7 +40,7 @@ fetch(url).then((response) =>
 
 
 let apiCallTwo = function(longitude, latitude) {
-    const APIKEY ="2094eed58c3c02527e412af03e97bbee"
+    const APIKEY ="***********************"
     let url =`https://api.openweathermap.org/data/2.5/onecall?lat=${latitude}&lon=${longitude}&exclude=minutely&appid=${APIKEY}&units=metric&lang=fr`
     
     fetch(url).then((response)=> 
